@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin-ext';
+@import "../less.js-2.6.1/elements.less";
+/* ==========================================================
+* Begin of Less variables
+* ===========================================================
+*/
+.box-shadow {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+}
+@nav-width: 200px;
+/* ==========================================================
+* End of Less variables
+* ===========================================================
+*/
+
+
+
+
+
+/* ==========================================================
+* Begin of Common
+* ===========================================================
+*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  font-size: 16px;
+  color: #000;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+p {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px;
+}
+/* ==========================================================
+* End of Common
+* ===========================================================
+*/
+
+/* ==========================================================
+* Begin of Nav
+* ===========================================================
+*/
+.nav {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: @nav-width;
+  background-color: #f1f1f1;
+  .box-shadow;
+  .list {
+    padding: 100px 0 0;
+    .item {
+      .link {
+        text-decoration: none;
+        padding: 10px 25px;
+        display: block;
+        color: #333;
+        .text {
+
+        }
+      }
+    }
+  }
+}
+/* ==========================================================
+* End of Nav
+* ===========================================================
+*/
+
+/* ==========================================================
+* Begin of Main content
+* ===========================================================
+*/
+.main-content {
+  margin-left: @nav-width;
+  padding: 50px 50px;
+  .header {
+    .title {
+      margin: 0;
+      padding: 0 0 15px;
+      font-weight: 700;
+    }
+  }
+}
+/* ==========================================================
+* End of Main content
+* ===========================================================
+*/

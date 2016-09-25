@@ -1,0 +1,28 @@
+{
+  "name": "angular-admin",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Admin test panel on AngularJS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thurman-merman/angular-admin.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/thurman-merman/angular-admin/issues"
+  },
+  "homepage": "https://github.com/thurman-merman/angular-admin#readme",
+  "main": "index.html",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "http-server": "^0.9.0"
+  },
+  "author": "StepanovMax",
+  "scripts": {
+    "start": "http-server ./app -a localhost -p 8000 -c-1"
+  }
+}
